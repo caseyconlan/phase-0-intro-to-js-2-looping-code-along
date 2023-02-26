@@ -6,7 +6,7 @@ function writeCards(names, event) {
  console.log(writeCards(names, "birthday"))
 
 function countDown(i) {
-    let integer = i; //typically use a different variable name than function name. i.e., don't use "countDown" for both function and variable
+    let countDown = i; //typically use a different variable name than function name. i.e., don't use "countDown" for both function and variable
     while (countDown >= 0) { //> is different from >=
       console.log(countDown--);
     }
